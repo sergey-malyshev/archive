@@ -13,7 +13,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Start application!!!" );
+        System.out.println( "Start application!!!!!" );
         String filename1 = "D:\\file1.txt";
         String filename2 = "D:\\file2.txt";
         try(ZipOutputStream zout = new ZipOutputStream(new FileOutputStream("D:\\arch.zip"));)
